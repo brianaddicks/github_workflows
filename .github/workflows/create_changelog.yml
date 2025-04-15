@@ -57,6 +57,7 @@ jobs:
           signoff: false
           branch: changelog-patches
           delete-branch: true
+          base: main
           title: '[RELEASE] Update changelog ${{ github.ref }}'
           body: |
             Update changelog
